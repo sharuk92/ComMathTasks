@@ -3,6 +3,13 @@
 
 using namespace std;
 
+// a- a point
+// b- a point such that a < b
+// h = a(i+1) - a(i)
+
+
+
+
 double trapezoidRuleEx(double a, double b, double h)
 {
 	double sumIntegrals = 0;

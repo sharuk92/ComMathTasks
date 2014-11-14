@@ -7,7 +7,7 @@ using namespace std;
 // b- a point such that a < b
 // h = a(i+1) - a(i)
 
-
+int constante = 345;
 
 
 double trapezoidRuleEx(double a, double b, double h)
@@ -23,7 +23,7 @@ double trapezoidRuleEx(double a, double b, double h)
 double simpsonRuleEx(double a, double b, double h)
 {
 	double sumIntegrals = 0;
-	
+
 	for(double i = a; i<b && (i + 2*h)<=b ; i+=2*h)
 	{
 		sumIntegrals += (h/3)*(exp(i) + 4*exp(i+h) + exp(i + 2*h));

@@ -7,7 +7,7 @@ using namespace std;
 // b- a point such that a < b
 // h = a(i+1) - a(i)
 
-//int constante = 345;
+int constante = 345;
 
 
 double trapezoidRuleEx(double a, double b, double h)
